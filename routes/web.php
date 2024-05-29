@@ -9,6 +9,9 @@ Route::get('/', function () {
 Route::get('/show', function () {
     return view('show');
 });
+Route::get('/create', function () {
+    return view('create');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
