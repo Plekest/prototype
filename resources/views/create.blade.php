@@ -31,6 +31,14 @@
               <label>Descrição do Evento</label>
               <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
             </div>
+            <div class="form-group">
+                <!-- <label for="customFile">Custom File</label> -->
+
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="customFile">
+                  <label class="custom-file-label" for="customFile">Adicionar Banner do Evento</label>
+                </div>
+              </div>
           </div>
         </div>
 

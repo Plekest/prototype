@@ -25,6 +25,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
+                    <div class="group-btn  mb-2">
+                        <button class="btn btn-outline-primary">Adicionar Evento</button>
+                    </div>
                     <div class="card card-primary">
                         <div class="card-header">
                             <h3 class="card-title">Eventos</h3>

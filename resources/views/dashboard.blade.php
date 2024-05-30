@@ -167,6 +167,10 @@
                             </p>
                         </div>
 
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="btn btn-sm btn-primary btn-equal flex-grow-1 m-1">Adicionar Arquivos</a>
+                        </div>
+
                         <h5 class="mt-5 text-muted">Documentos do evento</h5>
                         <ul class="list-unstyled">
                             <li>
@@ -187,10 +191,14 @@
                             </li>
                         </ul>
                         <div class="text-center mt-5 mb-3">
-                            <a href="#" class="btn btn-sm btn-primary">Adicionar Arquivos</a>
-                            <a href="#" class="btn btn-sm btn-warning">Reportar Erro</a>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="btn btn-sm btn-success btn-equal flex-grow-1 m-1"><i class="fas fa-edit"></i></a>
+                                <a href="#" class="btn btn-sm btn-danger btn-equal flex-grow-1 m-1"><i class="fas fa-times"></i></a>
+                                <a href="#" class="btn btn-sm btn-warning btn-equal flex-grow-1 m-1"><i class="fas fa-exclamation-triangle"></i></a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!-- /.card-body -->
@@ -209,6 +217,19 @@
     <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+
+    <style>
+        .btn-equal {
+            width: 40px; /* Ajuste a largura conforme necessário */
+            height: 40px; /* Ajuste a altura conforme necessário */
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0; /* Remova o padding padrão para garantir o mesmo tamanho */
+        }
+
+    </style>
 @stop
 
 @section('js')
